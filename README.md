@@ -21,7 +21,7 @@ How to Install my Templates
 5. In CUSTOMIZE, select Restore and then upload the HTML File (one of my templates you downloaded earlier)
 
 # updates
-[CLICK HERE](https://github.com/warrenwoodhouse/bloggertemplates/blob/master/RELEASE-NOTES.md) to read the Updates.
+[CLICK HERE](https://github.com/warrenwoodhouse/bloggertemplates/blob/main/RELEASE-NOTES.md) to read the Updates.
 
 # support
 > [!TIP]
