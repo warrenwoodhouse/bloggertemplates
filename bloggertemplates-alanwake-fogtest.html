@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warren Woodhouse: Animated Alan Wake Scene</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+        body {
+            font-family: 'Inter', sans-serif;
+            overflow: hidden; /* Prevent scrolling */
+            background-color: #0d1117; /* Dark background */
+        }
+
+        .scene-container {
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        .character-image {
+            position: absolute;
+            width: 80%; /* Fluid width */
+            max-width: 800px; /* Max width for larger screens */
+            height: auto;
+            z-index: 2; /* Above fog */
+            filter: brightness(1.1); /* Slightly brighter */
+            transform: translateY(0); /* Initial position */
+            animation: subtle-float 5s ease-in-out infinite alternate;
+        }
+
+        /* Subtle floating animation for the character */
+        @keyframes subtle-float {
+            0% { transform: translateY(0); }
+            100% { transform: translateY(-5px); }
+        }
+
+        .fog-layer {
+            position: absolute;
+            width: 150%;
+            height: 150%;
+            background: radial-gradient(ellipse at center, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0) 70%);
+            border-radius: 50%;
+            opacity: 0.7;
+            animation: fog-movement 20s linear infinite alternate;
+            z-index: 1; /* Below character */
+        }
+
+        .fog-layer-2 {
+            animation: fog-movement 25s linear infinite reverse; /* Different speed/direction */
+            opacity: 0.5;
+            transform: scale(1.2);
+        }
+
+        .fog-layer-3 {
+            animation: fog-movement 18s linear infinite; /* Different speed/direction */
+            opacity: 0.6;
+            transform: scale(0.8);
+        }
+
+        /* Fog movement animation */
+        @keyframes fog-movement {
+            0% {
+                transform: translate(-5%, -5%) scale(1);
+                opacity: 0.7;
+            }
+            50% {
+                transform: translate(5%, 5%) scale(1.1);
+                opacity: 0.8;
+            }
+            100% {
+                transform: translate(-5%, -5%) scale(1);
+                opacity: 0.7;
+            }
+        }
+
+        .light-glow {
+            position: absolute;
+            width: 300px; /* Size of the glow */
+            height: 300px;
+            background: radial-gradient(circle, rgba(255,255,150,0.5) 0%, rgba(255,255,150,0) 70%);
+            border-radius: 50%;
+            filter: blur(30px); /* Soft blur for glow */
+            z-index: 3; /* Above character and fog */
+            animation: light-pulse 3s ease-in-out infinite alternate;
+            /* Adjust position to align with flashlight */
+            top: 50%; /* Initial guess, fine-tune with JS if needed */
+            left: 50%; /* Initial guess, fine-tune with JS if needed */
+            transform: translate(-50%, -50%); /* Center the glow */
+        }
+
+        /* Light pulse animation */
+        @keyframes light-pulse {
+            0% { transform: translate(-50%, -50%) scale(0.9); opacity: 0.5; }
+            100% { transform: translate(-50%, -50%) scale(1.1); opacity: 0.7; }
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .character-image {
+                width: 95%;
+            }
+            .light-glow {
+                width: 200px;
+                height: 200px;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white flex items-center justify-center min-h-screen">
+    <div class="scene-container">
+        <img src="https://placehold.co/800x450/000000/FFFFFF?text=Alan+Wake"
+             onerror="this.onerror=null; this.src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII='"
+             alt="Alan Wake in fog" class="character-image">
+
+        <div class="fog-layer" style="bottom: 10%; left: 0%;"></div>
+        <div class="fog-layer fog-layer-2" style="top: 5%; right: 0%;"></div>
+        <div class="fog-layer fog-layer-3" style="bottom: 20%; left: 20%;"></div>
+
+        <div class="light-glow" style="top: 60%; left: 50%;"></div>
+    </div>
+
+    <script>
+        // Function to update image source if the original image is available
+        function updateImageSource() {
+            const imgElement = document.querySelector('.character-image');
+            // Using the filename directly from the uploaded file
+            const imageUrl = 'image.png'; // This assumes the file is accessible in the same context
+
+            // Create a temporary image to check if the URL is valid
+            const tempImg = new Image();
+            tempImg.onload = function() {
+                imgElement.src = imageUrl;
+                console.log('Original image loaded successfully.');
+            };
+            tempImg.onerror = function() {
+                console.error('Failed to load original image. Using placeholder.');
+                // Fallback to a generic placeholder if the original image fails to load
+                imgElement.src = 'https://placehold.co/800x450/000000/FFFFFF?text=Alan+Wake';
+            };
+            tempImg.src = imageUrl;
+        }
+
+        // Call the function when the window loads
+        window.onload = updateImageSource;
+    </script>
+</body>
+</html>
