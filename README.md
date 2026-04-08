@@ -1,10 +1,27 @@
-# hello
+# Blogger Templates
 Hello!
 
 If you're reading this, then you've found
 my collection of Blogger Templates that
 I've created. You can find out more about
 my templates below.
+
+If you like what you see and want to support me, please subscribe to my YouTube channel by [CLICKING HERE](https://youtube.com/user/warrenwoodhouse).
+
+# templates
+Here is the full list of Blogger Templates. Download the free for personal use only templates for your blog, found below. The download links are the most updated ZIP Folder for the template.
+
+* [Dotty Theme](https://raw.githubusercontent.com/warrenwoodhouse/bloggertemplates/main/bloggertemplates-bywarrenwoodhouse-dotty.zip)
+* [Blogging on a Sunday Morning Theme](https://raw.githubusercontent.com/warrenwoodhouse/bloggertemplates/main/bloggertemplates-bywarrenwoodhouse-bloggingonasundaymorning.zip)
+* [Will Turner Theme](https://raw.githubusercontent.com/warrenwoodhouse/bloggertemplates/main/bloggertemplates-bywarrenwoodhouse-willturner.zip)
+* [Will Turner 2004 Theme](https://raw.githubusercontent.com/warrenwoodhouse/bloggertemplates/main/bloggertemplates-bywarrenwoodhouse-willturner2004.zip)
+
+# upcoming
+These Templates are currently in development.
+
+* Alan Wake Theme
+* Control Theme
+* Life is Strange Theme
 
 # install
 How to Install my Templates
@@ -25,4 +42,4 @@ How to Install my Templates
 
 # support
 > [!TIP]
-> If you want to help out with correcting mistakes in issues oppended to the bug reports in the Blogger Templates, please [CLICK HERE](https://github.com/warrenwoodhouse/forums/labels/bloggertemplates)
+> If you want to help out with correcting mistakes in issues oppended to the bug reports in the Blogger Templates, please [CLICK HERE](https://github.com/warrenwoodhouse/forums/labels/bloggertemplates).
