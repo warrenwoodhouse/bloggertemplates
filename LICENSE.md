@@ -4,7 +4,9 @@ Full license for all Warren Woodhouse products and creations is available at [ht
 
 # Restrictions
 :x: Commercial Use: Not for commercial use except upon request. [CLICK HERE](https://warrenwoodhouse.blogspot.com/contact) to make a request.
+
 :x: Modification: Modifying source files is prohibitted unless fixing an issue, in which case, you can commit a patch update to this repository.
+
 :x: Distribution, except for sharing a download link to your friends and respective readers.
 
 # Personal Uses
@@ -12,5 +14,7 @@ Full license for all Warren Woodhouse products and creations is available at [ht
 
 # Liability
 :x: Trademark use
+
 :x: Patent use
+
 :white_check_mark: Warranty: I, Warren Woodhouse, can guarantee that the products in question in this repository and files are fit for purpose. However, I can not fully deny that it'll be 100% bug free. If you find any issues and need to report an issue, please [CLICK HERE](https://github.com/warrenwoodhouse/forums/issues/new?title=&body=&label=bloggertemplates,bug).
