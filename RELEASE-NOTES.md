@@ -1,6 +1,14 @@
 These are the release notes for Blogger Templates by Warren Woodhouse.
 Detailed information about changes to all of the templates that are created by Warren Woodhouse are listed below.
 
+# Alan Wake Theme
+* Version: 1.0
+* Released On: 3rd August 2026
+* [Recent Changes](https://github.com/warrenwoodhouse/bloggertemplates/commits/main/)
+* New Features Added: None
+* Bugs Reported: None
+* Structural Changes: None
+
 # Warren Woodhouse Theme
 * Version: 23.1
 * Released On: 1st January 2026
