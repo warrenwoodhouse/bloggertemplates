@@ -11,6 +11,7 @@ If you like what you see and want to support me, please subscribe to my YouTube 
 # templates
 Here is the full list of Blogger Templates. Download the free for personal use only templates for your blog, found below. The download links are the most updated ZIP Folder for the template.
 
+* [Alan Wake Theme](https://raw.githubusercontent.com/warrenwoodhouse/bloggertemplates/main/bloggertemplates-bywarrenwoodhouse-alanwake.zip)
 * [Dotty Theme](https://raw.githubusercontent.com/warrenwoodhouse/bloggertemplates/main/bloggertemplates-bywarrenwoodhouse-dotty.zip)
 * [Blogging on a Sunday Morning Theme](https://raw.githubusercontent.com/warrenwoodhouse/bloggertemplates/main/bloggertemplates-bywarrenwoodhouse-bloggingonasundaymorning.zip)
 * [Will Turner Theme](https://raw.githubusercontent.com/warrenwoodhouse/bloggertemplates/main/bloggertemplates-bywarrenwoodhouse-willturner.zip)
@@ -19,9 +20,13 @@ Here is the full list of Blogger Templates. Download the free for personal use o
 # upcoming
 These Templates are currently in development.
 
-* Alan Wake Theme
 * Control Theme
 * Life is Strange Theme
+* Fallout 3 Theme
+* Fallout: New Vegas Theme
+* Fallout 4 Theme
+* Minecraft Theme
+* Spyro the Dragon Theme
 
 # install
 How to Install my Templates
