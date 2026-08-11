@@ -11,11 +11,30 @@ If you like what you see and want to support me, please subscribe to my YouTube 
 # templates
 Here is the full list of Blogger Templates. Download the free for personal use only templates for your blog, found below. The download links are the most updated ZIP Folder for the template.
 
-* [Alan Wake Theme](https://raw.githubusercontent.com/warrenwoodhouse/bloggertemplates/main/bloggertemplates-bywarrenwoodhouse-alanwake.zip)
-* [Dotty Theme](https://raw.githubusercontent.com/warrenwoodhouse/bloggertemplates/main/bloggertemplates-bywarrenwoodhouse-dotty.zip)
-* [Blogging on a Sunday Morning Theme](https://raw.githubusercontent.com/warrenwoodhouse/bloggertemplates/main/bloggertemplates-bywarrenwoodhouse-bloggingonasundaymorning.zip)
-* [Will Turner Theme](https://raw.githubusercontent.com/warrenwoodhouse/bloggertemplates/main/bloggertemplates-bywarrenwoodhouse-willturner.zip)
-* [Will Turner 2004 Theme](https://raw.githubusercontent.com/warrenwoodhouse/bloggertemplates/main/bloggertemplates-bywarrenwoodhouse-willturner2004.zip)
+## Alan Wake Theme
+![Screenshot](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3ByNjV2yeO_kGv-IgFJT5pMyod5LmrzcL8hK0p0pS9jBua3dMb5leuybk7cY76Qmrkf6z9w6mnsGS5QXH1CDOkHXZeLL3CNPlHKxsWrbfXggAX0VQXAnhW4t2AD18PnKyOIZ_YJIAewAiqum-STHf8NAN0GxgDiug-F8668wce-IXb1qPwkghyFPF2_c/s1315/IMG_2684.jpeg)
+
+[CLICK HERE](https://raw.githubusercontent.com/warrenwoodhouse/bloggertemplates/main/bloggertemplates-bywarrenwoodhouse-alanwake.zip) to download the ZIP Folder
+
+## Dotty Theme
+add image here
+
+[CLICK HERE](https://raw.githubusercontent.com/warrenwoodhouse/bloggertemplates/main/bloggertemplates-bywarrenwoodhouse-dotty.zip) to download the ZIP Folder
+
+## Blogging on a Sunday Morning Theme
+add image here
+
+[CLICK HERE](https://raw.githubusercontent.com/warrenwoodhouse/bloggertemplates/main/bloggertemplates-bywarrenwoodhouse-bloggingonasundaymorning.zip) to download the ZIP Folder
+
+## Will Turner Theme
+add image here
+
+[CLICK HERE](https://raw.githubusercontent.com/warrenwoodhouse/bloggertemplates/main/bloggertemplates-bywarrenwoodhouse-willturner.zip) to download the ZIP Folder
+
+## Will Turner 2004 Theme
+add image here
+
+[CLICK HERE](https://raw.githubusercontent.com/warrenwoodhouse/bloggertemplates/main/bloggertemplates-bywarrenwoodhouse-willturner2004.zip) to download the ZIP Folder
 
 # upcoming
 These Templates are currently in development.
@@ -25,6 +44,8 @@ These Templates are currently in development.
 * Fallout 3 Theme
 * Fallout: New Vegas Theme
 * Fallout 4 Theme
+* Fallout 76 Theme
+* Fallout TV Series Theme
 * Minecraft Theme
 * Spyro the Dragon Theme
 
