@@ -10,11 +10,11 @@ Detailed information about changes to all of the templates that are created by W
 * Structural Changes: None
 
 # Warren Woodhouse Theme
-* Version: 23.1
+* Version: 23.5
 * Released On: 1st January 2026
 * [Recent Changes](https://github.com/warrenwoodhouse/bloggertemplates/commits/main/)
 * New Features Added: None
-* Bugs Reported: [Major issue with Invisible Column which still needs to be addressed - Warren Woodhouse Theme](https://github.com/warrenwoodhouse/forums/issues/31) (Help Wanted; Bug; Technical Issue)
+* Bugs Reported: [1 issue (fixed)](https://github.com/warrenwoodhouse/forums/issues/31)
 * Structural Changes: Recreated theme from my original website theme on Webs/Freewebs, Fandom and WordPress, for use by me on Blogger
 
 # Will Turner 2004 Theme
