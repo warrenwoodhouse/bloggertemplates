@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html b:css='false' b:defaultwidgetversion='2' b:layoutsVersion='3' expr:dir='data:blog.languageDirection' expr:lang='data:blog.locale' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+  <b:include data='blog' name='all-head-content'/>
+  <title><data:blog.pageTitle/></title>
+
+  <![CDATA[/*
+-----------------------------------------------
+Blogger Template Style
+Name:     Blogger Wiki
+Designer: Warren Woodhouse
+URL:      warrenwoodhouse.blogspot.com/themes
+----------------------------------------------- */
+
+  <style type='text/css'>
+    /* --- 1. RESET & BASIC TYPOGRAPHY --- */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+      background-color: #f6f6f6;
+      color: #202122;
+      line-height: 1.6;
+    }
+    
+    a {
+      color: #3366cc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* --- 2. CUSTOM SCROLLBAR --- */
+    ::-webkit-scrollbar {
+      width: 12px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #f1f1f1; 
+      border-left: 1px solid #ccc;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #a2a9b1; 
+      border-radius: 6px;
+      border: 2px solid #f1f1f1;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #72777d; 
+    }
+
+    /* --- 3. WIKI LAYOUT --- */
+    .wiki-container {
+      display: flex;
+      max-width: 1200px;
+      margin: 0 auto;
+      background: #fff;
+      min-height: 100vh;
+      border-left: 1px solid #a2a9b1;
+      border-right: 1px solid #a2a9b1;
+    }
+
+    .wiki-sidebar {
+      width: 200px;
+      padding: 20px;
+      background-color: #f6f6f6;
+      border-right: 1px solid #a2a9b1;
+    }
+
+    .wiki-content {
+      flex: 1;
+      padding: 30px 40px;
+    }
+
+    .wiki-header {
+      border-bottom: 1px solid #a2a9b1;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+
+    .wiki-header h1 {
+      margin: 0;
+      font-family: 'Linux Libertine', Georgia, Times, serif;
+      font-size: 2.2em;
+      font-weight: normal;
+    }
+
+    /* --- 4. CONTRIBUTION BUTTONS --- */
+    .edit-tabs {
+      display: flex;
+      gap: 5px;
+    }
+    .edit-btn {
+      background-color: #f8f9fa;
+      border: 1px solid #a2a9b1;
+      border-bottom: none;
+      padding: 5px 15px;
+      border-radius: 2px 2px 0 0;
+      font-size: 13px;
+      color: #202122;
+      cursor: pointer;
+    }
+    .edit-btn:hover {
+      background-color: #fff;
+    }
+    .edit-btn.active {
+      background-color: #fff;
+      font-weight: bold;
+      border-bottom: 1px solid #fff;
+      margin-bottom: -1px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class='wiki-container'>
+    
+    <!-- 5. LEFT SIDEBAR -->
+    <aside class='wiki-sidebar'>
+      <b:section id='sidebar' class='sidebar' showaddelement='yes'>
+        <b:widget id='Header1' locked='false' title='Wiki Title' type='Header' version='2' visible='true'>
+          <b:includable id='main'>
+            <h2><a expr:href='data:blog.homepageUrl'><data:title/></a></h2>
+            <p><data:description/></p>
+          </b:includable>
+        </b:widget>
+        <b:widget id='PageList1' locked='false' title='Navigation' type='PageList' version='2' visible='true'>
+           <!-- Navigation Widget Placeholder -->
+        </b:widget>
+      </b:section>
+    </aside>
+
+    <!-- 6. MAIN CONTENT -->
+    <main class='wiki-content'>
+      <b:section id='main' class='main' showaddelement='no'>
+        <b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog' version='2' visible='true'>
+          <b:includable id='main' var='top'>
+            <b:loop values='data:posts' var='post'>
+              
+              <div class='wiki-header'>
+                <h1><data:post.title/></h1>
+                
+                <!-- 7. THE CONTRIBUTION WORKAROUND -->
+                <div class='edit-tabs'>
+                  <div class='edit-btn active'>Read</div>
+                  <a class='edit-btn' href='YOUR_GOOGLE_FORM_URL_HERE' target='_blank' title='Suggest an edit to this article'>Suggest Edit</a>
+                  <a class='edit-btn' href='mailto:your-email@example.com?subject=Contribution for post' title='Email a contribution'>Contribute</a>
+                </div>
+              </div>
+
+              <div class='post-body'>
+                <data:post.body/>
+              </div>
+              
+            </b:loop>
+          </b:includable>
+        </b:widget>
+      </b:section>
+    </main>
+    
+  </div>
+</body>
+</html>
