@@ -74,3 +74,9 @@ How to Install my Templates
 # support
 > [!TIP]
 > If you want to help out with correcting mistakes in issues oppended to the bug reports in the Blogger Templates, please [CLICK HERE](https://github.com/warrenwoodhouse/forums/labels/bloggertemplates).
+
+# disclaimer
+Warren Woodhouse makes no guarantee that the Blogger Templates will be 100% bug free however, will fix such bugs as and when available to them.
+
+# copyright
+All Web Designs herein &copy;Warren Woodhouse. For personal use only and for commercial use upon [request](https://github.com/warrenwoodhouse/forums/issues/new?title=Request%20permission%20to%20use%20theme%20commericially&assignees=&labels=commercialrequests).
