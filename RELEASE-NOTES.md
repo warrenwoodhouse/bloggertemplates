@@ -3,7 +3,7 @@ Detailed information about changes to all of the templates that are created by W
 
 # Fallout TV Series Theme
 * Version: 1.0
-* Released On: TBA
+* Released On: 12th August 2026
 * [Recent Changes](https://github.com/warrenwoodhouse/bloggertemplates/commits/main/)
 * New Features Added: None
 * Bugs Reported: None
@@ -63,4 +63,4 @@ Detailed information about changes to all of the templates that are created by W
 * [Recent Changes](https://github.com/warrenwoodhouse/bloggertemplates/commits/main/)
 * New Features Added: None
 * Bugs Reported: None
-* Structural Changes: None
+* Structural Changes: Outdated codes and links have been removed
