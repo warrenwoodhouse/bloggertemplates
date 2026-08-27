@@ -41,6 +41,9 @@ Here is the full list of Blogger Templates. Download the free for personal use o
 
 [CLICK HERE](https://raw.githubusercontent.com/warrenwoodhouse/bloggertemplates/main/bloggertemplates-bywarrenwoodhouse-willturner2004.zip) to download the ZIP Folder
 
+## Warren Woodhouse Theme
+Unavailable for everyone except for Warren Woodhouse websites and blogs.
+
 # upcoming
 These Templates are currently in development.
 
@@ -51,8 +54,16 @@ These Templates are currently in development.
 * Fallout 4 Theme
 * Fallout 76 Theme
 * 798 Theme
+* Piczo Theme
+* Piczo Black and Purple Theme
+* Assassin’s Creed Theme
+* The Outer Worlds Theme
+* Farmyard Theme
+* Country Bumpkin Theme
 * Minecraft Theme
 * Spyro the Dragon Theme
+* Blogger Wiki Theme: Literally a theme with wiki features allowing authors and members to seemingly make changes on the fly.
+* LifeInvader Theme: A social media platform styled theme with features similar to the LifeInvader website in the game of Grand Theft Auto V.
 
 # install
 How to Install my Templates
